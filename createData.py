@@ -12,16 +12,16 @@ minBlur = 500  # SMALLER VALUE MEANS MORE BLURRINESS PRESENT
 grayImage = False # IMAGES SAVED COLORED OR GRAY
 saveData = True   # SAVE DATA FLAG
 showImage = True  # IMAGE DISPLAY FLAG
-imgWidth = 180
-imgHeight = 120
+imgWidth = 120
+imgHeight = 240
 
 
 #####################################################
 
 global countFolder
 cap = cv2.VideoCapture(cameraNo)
-cap.set(3, 640)
-cap.set(4, 480)
+cap.set(3, 120)
+cap.set(4, 240)
 cap.set(10,cameraBrightness)
 
 
